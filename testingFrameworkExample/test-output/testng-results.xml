@@ -8,7 +8,7 @@
       <![CDATA[<div "feature">Feature: Login Page Test</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">Given  I was located on the home page (passed : 3s)</div>]]>
+      <![CDATA[<div "result">Given  I was located on the home page (passed : 4s)</div>]]>
     </line>
     <line>
       <![CDATA[<div "scenario">Scenario: Login with correct credentials</div>]]>
@@ -20,15 +20,15 @@
       <![CDATA[<div "result">Then  I should get SIGN-OFF link (passed : 0s)</div>]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8135" started-at="2018-03-02T22:13:27Z" finished-at="2018-03-02T22:13:35Z">
+  <suite name="Default suite" duration-ms="9150" started-at="2018-03-09T20:05:51Z" finished-at="2018-03-09T20:06:00Z">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.run_cukes()[pri:0, instance:utilities.TestRunner@59494225]" name="run_cukes" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="8135" started-at="2018-03-02T22:13:27Z" finished-at="2018-03-02T22:13:35Z">
+    <test name="Default test" duration-ms="9150" started-at="2018-03-09T20:05:51Z" finished-at="2018-03-09T20:06:00Z">
       <class name="utilities.TestRunner">
-        <test-method status="PASS" signature="run_cukes()[pri:0, instance:utilities.TestRunner@59494225]" name="run_cukes" duration-ms="8116" started-at="2018-03-02T17:13:27Z" description="Runs Cucumber Features" finished-at="2018-03-02T17:13:35Z">
+        <test-method status="PASS" signature="run_cukes()[pri:0, instance:utilities.TestRunner@59494225]" name="run_cukes" duration-ms="9120" started-at="2018-03-09T15:05:51Z" description="Runs Cucumber Features" finished-at="2018-03-09T15:06:00Z">
           <reporter-output>
             <line>
               <![CDATA[<div "featureFile">Feature File: LoginPageTest.feature</div>]]>
@@ -37,7 +37,7 @@
               <![CDATA[<div "feature">Feature: Login Page Test</div>]]>
             </line>
             <line>
-              <![CDATA[<div "result">Given  I was located on the home page (passed : 3s)</div>]]>
+              <![CDATA[<div "result">Given  I was located on the home page (passed : 4s)</div>]]>
             </line>
             <line>
               <![CDATA[<div "scenario">Scenario: Login with correct credentials</div>]]>
