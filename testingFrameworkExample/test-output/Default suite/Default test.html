@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Mar 09 15:05:51 EST 2018</td>
+<td>Started on:</td><td>Fri Mar 16 13:53:07 EDT 2018</td>
 </tr>
-<tr><td>Total time:</td><td>9 seconds (9150 ms)</td>
+<tr><td>Total time:</td><td>17 seconds (17576 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,22 +75,25 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='utilities.TestRunner.run_cukes()'><b>run_cukes</b><br>Test class: utilities.TestRunner<br>Test method: Runs Cucumber Features<br/>
-<a href="#Output-1325056130" onClick='toggleBox("Output-1325056130", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1325056130" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1325056130">
-<div "featureFile">Feature File: LoginPageTest.feature</div><br/>
-<div "feature">Feature: Login Page Test</div><br/>
-<div "result">Given  I was located on the home page (passed : 4s)</div><br/>
-<div "scenario">Scenario: Login with correct credentials</div><br/>
-<div "result">When  I am logging in with &quot;a&quot; and &quot;a&quot; (passed : 3s)</div><br/>
-<div "result">Then  I should get SIGN-OFF link (passed : 0s)</div><br/>
-</div>
-</td>
+<td title='testCases.LoginLogout.testingWithCorrectCredencials()'><b>testingWithCorrectCredencials</b><br>Test class: testCases.LoginLogout<br>Parameters: a, a</td>
 <td></td>
-<td>9</td>
-<td>utilities.TestRunner@59494225</td></tr>
+<td>4</td>
+<td>testCases.LoginLogout@59ec2012</td></tr>
+<tr>
+<td title='testCases.LoginLogout.testingWithCorrectCredencials()'><b>testingWithCorrectCredencials</b><br>Test class: testCases.LoginLogout<br>Parameters: b, b</td>
+<td></td>
+<td>3</td>
+<td>testCases.LoginLogout@59ec2012</td></tr>
+<tr>
+<td title='testCases.LoginLogout.testingWithIncorrectCredencials()'><b>testingWithIncorrectCredencials</b><br>Test class: testCases.LoginLogout<br>Parameters: wrongemail, incorrectpassword</td>
+<td></td>
+<td>1</td>
+<td>testCases.LoginLogout@59ec2012</td></tr>
+<tr>
+<td title='testCases.LoginLogout.testingWithIncorrectCredencials()'><b>testingWithIncorrectCredencials</b><br>Test class: testCases.LoginLogout<br>Parameters: incorrectemail, wrongpassword</td>
+<td></td>
+<td>1</td>
+<td>testCases.LoginLogout@59ec2012</td></tr>
 </table><p>
 </body>
 </html>

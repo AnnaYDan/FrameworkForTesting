@@ -1,56 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
-    <line>
-      <![CDATA[<div "featureFile">Feature File: LoginPageTest.feature</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "feature">Feature: Login Page Test</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">Given  I was located on the home page (passed : 4s)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "scenario">Scenario: Login with correct credentials</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">When  I am logging in with &quot;a&quot; and &quot;a&quot; (passed : 3s)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">Then  I should get SIGN-OFF link (passed : 0s)</div>]]>
-    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9150" started-at="2018-03-09T20:05:51Z" finished-at="2018-03-09T20:06:00Z">
+  <suite name="Default suite" duration-ms="17576" started-at="2018-03-16T17:53:07Z" finished-at="2018-03-16T17:53:24Z">
     <groups>
-      <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.run_cukes()[pri:0, instance:utilities.TestRunner@59494225]" name="run_cukes" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
-      </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="9150" started-at="2018-03-09T20:05:51Z" finished-at="2018-03-09T20:06:00Z">
-      <class name="utilities.TestRunner">
-        <test-method status="PASS" signature="run_cukes()[pri:0, instance:utilities.TestRunner@59494225]" name="run_cukes" duration-ms="9120" started-at="2018-03-09T15:05:51Z" description="Runs Cucumber Features" finished-at="2018-03-09T15:06:00Z">
+    <test name="Default test" duration-ms="17576" started-at="2018-03-16T17:53:07Z" finished-at="2018-03-16T17:53:24Z">
+      <class name="testCases.LoginLogout">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testCases.LoginLogout@59ec2012]" name="beforeTest" is-config="true" duration-ms="5430" started-at="2018-03-16T13:53:07Z" finished-at="2018-03-16T13:53:12Z">
           <reporter-output>
-            <line>
-              <![CDATA[<div "featureFile">Feature File: LoginPageTest.feature</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "feature">Feature: Login Page Test</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">Given  I was located on the home page (passed : 4s)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "scenario">Scenario: Login with correct credentials</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">When  I am logging in with &quot;a&quot; and &quot;a&quot; (passed : 3s)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">Then  I should get SIGN-OFF link (passed : 0s)</div>]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- run_cukes -->
-      </class> <!-- utilities.TestRunner -->
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testingWithCorrectCredencials(java.lang.String, java.lang.String)[pri:0, instance:testCases.LoginLogout@59ec2012]" name="testingWithCorrectCredencials" duration-ms="4330" started-at="2018-03-16T13:53:12Z" data-provider="correctCredencials" finished-at="2018-03-16T13:53:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testingWithCorrectCredencials -->
+        <test-method status="PASS" signature="testingWithCorrectCredencials(java.lang.String, java.lang.String)[pri:0, instance:testCases.LoginLogout@59ec2012]" name="testingWithCorrectCredencials" duration-ms="3974" started-at="2018-03-16T13:53:17Z" data-provider="correctCredencials" finished-at="2018-03-16T13:53:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[b]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testingWithCorrectCredencials -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testCases.LoginLogout@59ec2012]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-03-16T13:53:17Z" finished-at="2018-03-16T13:53:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testCases.LoginLogout@59ec2012]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-03-16T13:53:21Z" finished-at="2018-03-16T13:53:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="testingWithIncorrectCredencials(java.lang.String, java.lang.String)[pri:0, instance:testCases.LoginLogout@59ec2012]" name="testingWithIncorrectCredencials" duration-ms="1614" started-at="2018-03-16T13:53:21Z" data-provider="incorrectCredencials" finished-at="2018-03-16T13:53:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wrongemail]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[incorrectpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testingWithIncorrectCredencials -->
+        <test-method status="PASS" signature="testingWithIncorrectCredencials(java.lang.String, java.lang.String)[pri:0, instance:testCases.LoginLogout@59ec2012]" name="testingWithIncorrectCredencials" duration-ms="1704" started-at="2018-03-16T13:53:22Z" data-provider="incorrectCredencials" finished-at="2018-03-16T13:53:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[incorrectemail]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrongpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testingWithIncorrectCredencials -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testCases.LoginLogout@59ec2012]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-03-16T13:53:22Z" finished-at="2018-03-16T13:53:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testCases.LoginLogout@59ec2012]" name="afterClass" is-config="true" duration-ms="502" started-at="2018-03-16T13:53:24Z" finished-at="2018-03-16T13:53:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testCases.LoginLogout@59ec2012]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-03-16T13:53:24Z" finished-at="2018-03-16T13:53:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testCases.LoginLogout -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

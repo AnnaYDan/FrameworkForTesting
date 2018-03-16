@@ -11,13 +11,18 @@ Feature: Login Page Test
     When I am logging in with "a" and "a"
     Then I should get SIGN-OFF link
 
-#  @tag2
-#  Scenario Outline: Title of your scenario outline
-#    Given I want to write a step with <name>
-#    When I check for the <value> in step
-#    Then I verify the <status> in step
-#
-#    Examples: 
-#      | name  | value | status  |
-#      | name1 |     5 | success |
-#      | name2 |     7 | Fail    |
+  @tag2
+  Scenario Outline: Login with correct credentials
+    When I am logging with user "<name>" and password "<pass>"
+    Then I should get this "<status>" link
+
+    Examples: 
+      | name  | pass  | status  |
+      | a     | wrong | SIGN-ON |
+      | a     |       | SIGN-ON |
+      |       | a     | SIGN-ON |
+      |       |       | SIGN-ON |
+      |       | wrong | SIGN-ON |
+      | wrong | wrong | SIGN-ON |
+      | wrong | a     | SIGN-ON |
+      | wrong |       | SIGN-ON |

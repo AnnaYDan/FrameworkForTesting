@@ -28,7 +28,7 @@ public class LoginLogout {
 
 	@BeforeClass
 	public void beforeTest() {
-		new Browser("Chrome");
+		new Browser("Firefox");
 		driver = Browser.driver;
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		String url = "http://newtours.demoaut.com/";

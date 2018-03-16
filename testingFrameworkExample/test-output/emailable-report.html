@@ -31,22 +31,44 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <body>
 <table cellspacing="0" cellpadding="0" class="result">
 <tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em">Default test</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">9.2 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Default test</td><td class="numi">4</td><td class="numi">4</td><td class="numi">0</td><td class="numi">0</td><td class="numi">17.6 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 </table>
 <table cellspacing="0" cellpadding="0" class="passed" id="summary">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
 <tr><th colspan="4">Default test &#8212; passed</th></tr>
-<tr class="passedodd"><td rowspan="1">utilities.TestRunner</td><td><a href="#m1"><b>run_cukes</b> (cucumber) ("Runs Cucumber Features")</a></td><td class="numi">1</td><td>1520625951634</td><td class="numi">9120</td></tr>
+<tr class="passedodd"><td rowspan="4">testCases.LoginLogout</td><td><a href="#m1"><b>testingWithCorrectCredencials</b>  </a></td><td class="numi">2</td><td>1521222792834</td><td class="numi">8306</td></tr><tr class="passedodd"><td><a href="#m2"><b>testingWithCorrectCredencials</b>  </a></td><td class="numi">2</td><td>1521222792834</td><td class="numi">8306</td></tr><tr class="passedodd"><td><a href="#m3"><b>testingWithIncorrectCredencials</b>  </a></td><td class="numi">2</td><td>1521222801142</td><td class="numi">3319</td></tr><tr class="passedodd"><td><a href="#m4"><b>testingWithIncorrectCredencials</b>  </a></td><td class="numi">2</td><td>1521222801142</td><td class="numi">3319</td></tr>
 </table>
 <h1>Default test</h1>
-<h2 id="m1">utilities.TestRunner:run_cukes</h2>
-<div style="padding-left:3em">
-<div "featureFile">Feature File: LoginPageTest.feature</div><br/>
-<div "feature">Feature: Login Page Test</div><br/>
-<div "result">Given  I was located on the home page (passed : 4s)</div><br/>
-<div "scenario">Scenario: Login with correct credentials</div><br/>
-<div "result">When  I am logging in with &quot;a&quot; and &quot;a&quot; (passed : 3s)</div><br/>
-<div "result">Then  I should get SIGN-OFF link (passed : 0s)</div><br/>
-</div>
+<h2 id="m1">testCases.LoginLogout:testingWithIncorrectCredencials</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>incorrectemail</td>
+<td>wrongpassword</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">testCases.LoginLogout:testingWithCorrectCredencials</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>a</td>
+<td>a</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">testCases.LoginLogout:testingWithCorrectCredencials</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>b</td>
+<td>b</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">testCases.LoginLogout:testingWithIncorrectCredencials</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>wrongemail</td>
+<td>incorrectpassword</td>
+</tr>
+</table>
 <p class="totop"><a href="#summary">back to summary</a></p>
 </body></html>
