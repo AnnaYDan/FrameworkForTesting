@@ -32,7 +32,7 @@ public class LoginPageTest {
 	@Given("^I was located on the home page$")
 	public void i_was_located_on_the_home_page() throws Throwable {
 		// Write code here that turns the phrase above into concrete actions
-		new Browser("Chrome");
+		new Browser("Firefox");
 		driver = Browser.driver;
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		String url = "http://newtours.demoaut.com/";
@@ -42,13 +42,13 @@ public class LoginPageTest {
 		menuPage = new MenuPage(driver);
 	}
 
-	@Test
-	@When("^I am logging in with \"(.*?)\" and \"(.*?)\"$")
-	public void i_am_logging_in_with_and(String name, String password) throws Throwable {
+/*	@Test
+	@When("^I am logging with user \"([^\"]*)\" and password \"([^\"]*)\"$")
+	public void i_am_logging_with_user_and_password(String name, String password) throws Throwable {
 		// Write code here that turns the phrase above into concrete actions
 		loginPage = homePage.signOn();
 		flightPage = loginPage.login(name, password);
-	}
+	}*/
 
 	@Test
 	@When("^I am logging with user \"(.*?)\" and password \"(.*?)\"$")

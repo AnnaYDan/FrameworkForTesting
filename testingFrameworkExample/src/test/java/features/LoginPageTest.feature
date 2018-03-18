@@ -7,11 +7,6 @@ Feature: Login Page Test
     Given I was located on the home page
 
   @tag1
-  Scenario: Login with correct credentials
-    When I am logging in with "a" and "a"
-    Then I should get SIGN-OFF link
-
-  @tag2
   Scenario Outline: Login with correct credentials
     When I am logging with user "<name>" and password "<pass>"
     Then I should get this "<status>" link
