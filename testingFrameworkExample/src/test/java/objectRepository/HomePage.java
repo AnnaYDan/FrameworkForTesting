@@ -17,7 +17,6 @@ public class HomePage {
 
 	@FindBy(linkText = "SIGN-ON")
 	public WebElement signOn;
-
 	@FindBy(linkText = "REGISTER")
 	public WebElement register;
 	@FindBy(linkText = "CONTACT")

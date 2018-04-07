@@ -16,8 +16,8 @@ Feature: Login Page Test
       | a     | wrong | SIGN-ON |
       | a     |       | SIGN-ON |
       |       | a     | SIGN-ON |
-      |       |       | SIGN-ON |
-      |       | wrong | SIGN-ON |
-      | wrong | wrong | SIGN-ON |
-      | wrong | a     | SIGN-ON |
-      | wrong |       | SIGN-ON |
+#      |       |       | SIGN-ON |
+#      |       | wrong | SIGN-ON |
+#      | wrong | wrong | SIGN-ON |
+#      | wrong | a     | SIGN-ON |
+#      | wrong |       | SIGN-ON |

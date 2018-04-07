@@ -3,14 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="stepDefinitions.LoginPageTest">
+      <class name="testCases.LoginLogout">
         <methods>
-          <include name="i_am_logging_with_user_and_password"/>
-          <include name="i_should_get_this_link"/>
-          <include name="i_was_located_on_the_home_page"/>
-          <include name="i_should_get_SIGN_OFF_link"/>
+          <include name="testingWithCorrectCredencials" invocation-numbers="0 1"/>
+          <include name="afterClass"/>
+          <include name="afterTest"/>
+          <include name="testingWithIncorrectCredencials" invocation-numbers="0 1"/>
+          <include name="beforeTest"/>
         </methods>
-      </class> <!-- stepDefinitions.LoginPageTest -->
+      </class> <!-- testCases.LoginLogout -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

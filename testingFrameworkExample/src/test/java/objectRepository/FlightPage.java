@@ -16,7 +16,6 @@ public class FlightPage {
 
 	@FindBy(name = "firstName")
 	public WebElement fName;
-
 	@FindBy(css = "[type='radio'][value='oneway']")
 	public WebElement oneWay;
 	@FindBy(name = "fromPort")

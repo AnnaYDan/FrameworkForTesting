@@ -9,7 +9,7 @@ public class RegistrationTest {
 
 	public static void main(String[] args) {
 		// check registration page is working or not
-		Browser b = new Browser("Chrome");
+		Browser b = new Browser("Firefox");
 		WebDriver driver = b.driver;
 
 		RegistrationPage r = new RegistrationPage(driver);
