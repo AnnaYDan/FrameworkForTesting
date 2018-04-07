@@ -19,7 +19,6 @@ public class RegistrationPage {
 
 	@FindBy(name = "firstName")
 	public WebElement fName;
-
 	@FindBy(name = "lastName")
 	public WebElement lName;
 	@FindBy(name = "phone")
